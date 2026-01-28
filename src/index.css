@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-marquee {
+    animation: marquee 24s linear infinite;
+  }
+
+  .hover\:pause:hover {
+    animation-play-state: paused;
+  }
+}

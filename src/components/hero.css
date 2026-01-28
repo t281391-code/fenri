@@ -1,0 +1,134 @@
+.hero {
+  min-height: 100vh;
+  background-color: #000000;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 60px 60px 60px;
+}
+
+/* Navigation Bar */
+.hero-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 10;
+}
+
+.hero-nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.hero-logo-icon {
+  width: 24px;
+  height: 24px;
+  fill: #00d9ff;
+  stroke: #ffffff;
+}
+
+.hero-nav-links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00d9ff;
+}
+
+/* Main Title */
+.hero-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  z-index: 5;
+}
+
+/* Bottom Left Text */
+.hero-bottom-left {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  z-index: 10;
+}
+
+.hero-text-line {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.hero-text-highlight {
+  margin-top: 8px;
+}
+
+.highlight-blue {
+  color: #00d9ff;
+}
+
+/* Bottom Right Text and Button */
+.hero-bottom-right {
+  position: absolute;
+  bottom: 60px;
+  right: 60px;
+  text-align: right;
+  z-index: 10;
+}
+
+.hero-cta-button {
+  margin-top: 24px;
+  padding: 14px 28px;
+  background-color: transparent;
+  border: 1px solid #00d9ff;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.hero-cta-button:hover {
+  background-color: #00d9ff;
+  color: #000000;
+}
+
+.button-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #00d9ff;
+  border-radius: 50%;
+  display: inline-block;
+}

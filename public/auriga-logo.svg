@@ -1,0 +1,17 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stylized cyan "A" similar to Auriga mark -->
+  <path
+    d="M19.999 4L5 34H11.2L19.999 16.8L28.8 34H35L19.999 4Z"
+    stroke="#00E0FF"
+    stroke-width="2.2"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M15.5 23.5H24.5"
+    stroke="#00E0FF"
+    stroke-width="2"
+    stroke-linecap="round"
+  />
+</svg>
+
+
